@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Oswald', sans-serif;
+  background: url(img/logo.png) no-repeat;
+  background-position: top right;
+}
+.title{
+  color: black;
+  text-align: center;
+  font-size: 25px;
+  text-shadow: 1px 0 5px black;
+  margin-top: 30px;
+}
+hr{
+  background-color: purple;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  height: 5px;
+}
+.text{
+  text-align: center;
+  font-size: 20px;
+  line-height: 28px;
+  font-family: 'Oswald', sans-serif; 
+}
+form{
+  width: 50%;
+  background-color: purple;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+.action{
+  text-align: center;
+}
+.reg{
+  text-decoration: none;
+  color: black;
+  padding: 1%;
+}
+.log{
+  text-decoration: none;
+  color: black;
+  padding: 1%;
+}
+.log:hover{
+  color: white;
+}
+.reg:hover{
+  color: white;
+}
+.active{
+  color: white;
+  border-bottom: 2px solid orange;
+}
+.field p{
+  font-size: 15px;
+  color: lightgray;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.field input{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 3%;
+  background-color: aquamarine;
+  text-align: center;
+  padding: 5px;
+  border-radius: 15px;
+  border: none;
+  color: brown;
+}
+.wrap{
+  text-align: center;
+}
+.wrap p{
+  display: inline;
+  padding: 5px;
+ 
+}
+.wrap input{
+  width: auto;
+}
+.Text-line{
+    width: 90%;
+  margin-left: 5%;
+  margin-right: 3%;
+  background-color: darkgreen;
+  text-align: center;
+  padding: 15px;
+  border-radius: 15px;
+  border: none;
+  color: brown;
+  outline: none;
+}
+.btn{
+  width: 90%;
+  margin-top: 10px;
+  margin-left: 5%;
+  margin-right: 3%;
+  background-color: orange;
+  text-align: center;
+  padding: 5px;
+  border-radius: 15px;
+  border: none;
+  color: black;
+}
+hr{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 3%;
+  filter: blur(1px);
+  height: 0px;
+}
+.groy{
+  color: gray;
+  text-decoration: none;
+}
